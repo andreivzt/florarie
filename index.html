@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Florăria Coquette Focșani - Buchete cu suflet, cadouri speciale și organizare evenimente memorabile. Transformăm visele în realitate.">
+    <title>Florăria Coquette | Focșani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">C</div>
+                <div class="logo-text">
+                    <span class="logo-main">Coquette</span>
+                    <span class="logo-sub">Flori & Cadouri</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Acasă</a>
+                <a href="#collections">Creații</a>
+                <a href="#about">Povestea</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-bg" id="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="fade-up">Aducem visele<br><span>la realitate</span></h1>
+                <p class="fade-up delay-1">Buchete cu suflet și cadouri speciale,<br>create cu pasiune în Focșani.</p>
+                <div class="hero-actions fade-up delay-2">
+                    <a href="#collections" class="cta-button primary">Descoperă Creațiile</a>
+                    <a href="#contact" class="cta-button secondary">Comandă Acum</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll</span>
+            </div>
+        </section>
+
+        <section id="collections" class="collections">
+            <div class="section-container">
+                <div class="section-header fade-in">
+                    <h2>Creațiile Noastre</h2>
+                    <p>Fiecare buchet spune o poveste unică.</p>
+                </div>
+
+                <div class="grid-gallery">
+                    <!-- Cards will be populated dynamically or static for now -->
+                    <div class="flower-card fade-up">
+                        <div class="img-wrapper">
+                            <img src="bouquet_1.png" alt="Buchet elegant trandafiri și eusthoma" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Eleganță Pură</h3>
+                            <p>Trandafiri și eusthoma</p>
+                            <button class="btn-outline">Detalii</button>
+                        </div>
+                    </div>
+                    <div class="flower-card fade-up delay-1">
+                        <div class="img-wrapper">
+                            <img src="bouquet_2.png" alt="Aranjament floral premium" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Moment Special</h3>
+                            <p>Aranjamente florale premium</p>
+                            <button class="btn-outline">Detalii</button>
+                        </div>
+                    </div>
+                    <div class="flower-card fade-up delay-2">
+                        <div class="img-wrapper">
+                            <img src="bouquet_3.png" alt="Buchet personalizat" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Vise Colorate</h3>
+                            <p>Buchete personalizate</p>
+                            <button class="btn-outline">Detalii</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-bg"></div>
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper fade-right">
+                        <div class="about-image pink-gradient"></div>
+                        <div class="experience-badge">
+                            <span class="number">100%</span>
+                            <span class="text">Pasiune</span>
+                        </div>
+                    </div>
+                    <div class="about-text fade-left">
+                        <span class="subtitle">Povestea Noastră</span>
+                        <h2>Florăria Coquette</h2>
+                        <p>Ne dedicăm artei florale pentru a transforma fiecare ocazie într-un moment de neuitat. La
+                            Coquette, fiecare petală este așezată cu grijă pentru a transmite emoția dorită.</p>
+
+                        <ul class="features">
+                            <li>
+                                <div class="feature-icon">✨</div>
+                                <div>
+                                    <h4>Buchete cu suflet</h4>
+                                    <p>Realizate manual cu atentie la fiecare detaliu.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">🎁</div>
+                                <div>
+                                    <h4>Cadouri speciale</h4>
+                                    <p>Surprize unice pentru cei dragi.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">🎉</div>
+                                <div>
+                                    <h4>Organizare evenimente</h4>
+                                    <p>Momente memorabile croite exact pe gustul tău.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="section-header fade-in">
+                    <h2>Ne Găsești Aici</h2>
+                    <p>Suntem aici pentru a te ajuta să faci ziua cuiva mai frumoasă.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info fade-up">
+                        <div class="info-card">
+                            <div class="icon-circle">📍</div>
+                            <h3>Adresă</h3>
+                            <p>Bulevardul Independenței 50<br>620024 Focșani</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="icon-circle">📞</div>
+                            <h3>Telefon</h3>
+                            <p><a href="tel:0779345345">0779 345 345</a></p>
+                            <p class="small-text">Suntem disponibili și pe WhatsApp</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="icon-circle">📱</div>
+                            <h3>Social Media</h3>
+                            <a href="https://instagram.com/florariacoquettefocsani" target="_blank"
+                                class="social-link">@florariacoquettefocsani</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form fade-up delay-1" id="contactForm">
+                        <h3>Scrie-ne un mesaj</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Numele tău" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Număr de telefon" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Cu ce te putem ajuta?" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button primary full-width">Trimite pe WhatsApp <span
+                                style="margin-left:8px; font-size:1.2rem;">📱</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content section-container">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-main">Coquette</span>
+                </div>
+                <p>Transformăm visele în realitate prin artă florală.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Acasă</a>
+                <a href="#collections">Creații</a>
+                <a href="#about">Povestea</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2026</span> Florăria Coquette Focșani. Toate drepturile rezervate.</p>
+            <p class="made-by" style="font-size: 0.8rem; margin-top: 8px; opacity: 0.6;">made by andrei vizitiu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
